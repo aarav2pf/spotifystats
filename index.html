@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Spotify Artist Comparison</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <h1>Spotify Artist Comparison</h1>
+  <div class="container">
+    <label>Enter Artist 1:</label>
+    <input type="text" id="artist1">
+    <br><br>
+    <label>Enter Artist 2:</label>
+    <input type="text" id="artist2">
+    <br><br>
+    <button id="compareBtn">Compare</button>
+  </div>
+
+  <div id="popup" class="popup">
+    <div class="popup-content">
+      <span id="closeBtn" class="close">&times;</span>
+      <h2>Artist Comparison</h2>
+      <div id="result"></div>
+    </div>
+  </div>
+
+  <!-- Load main JS as a module -->
+  <script type="module" src="script.js"></script>
+</body>
+</html>
