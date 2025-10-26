@@ -113,5 +113,10 @@ export const artists = {
     listeners: 120000,
     topCity: "Essex",
     genre: "Experimental Trap"
+  },
+  "Esdeekid": {
+    listeners: 4700000,
+    topCity: "London",
+    genre: "Hip-Hop / Rap"
   }
 };
